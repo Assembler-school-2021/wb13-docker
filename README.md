@@ -60,6 +60,7 @@ Status: Downloaded newer image for enriquesanzsqy/miprimerapp:latest
 ```
 > Pregunta 3 : Crea una imagen custom de wordpress usando la imagen basal de debian. La carpeta con los datos del mysql será una carpeta externa.
 
+Ejecutamos el script que crea un volumen, compila el Dockerfile y arranca el servicio en el puerto 80
 ```
-
+bash runWordpress.bash
 ```
